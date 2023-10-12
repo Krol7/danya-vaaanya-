@@ -1,9 +1,9 @@
-public class Main {
-public static void main(String args[]){
-    String b = "быть или не быть?";
-    char [] u = b.toCharArray();
-    for (char i:u) {
-    System.out.println(i);
-    }
-}
+public class Main
+{
+ public static void main(String[] args) {
+     String ooo = "быть или не быть?";
+     char[] res = ooo.toCharArray();
+     for(int i = 0; i < res.length; i++)
+     System.out.println(res[i]);
+ }
 }
